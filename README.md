@@ -4,6 +4,12 @@ This web application provides a detailed operational overview of vessels' carbon
 
 ---
 
+## 🔗 Live Demo
+
+👉 [View the Dashboard](https://apptechdesk.github.io/EDPlatform/)
+
+---
+
 ## 📊 Features
 
 - Displays vessel-wise **Deadweight (DWT)**, **Distance Travelled**, and **Operational Time**
@@ -24,29 +30,29 @@ This web application provides a detailed operational overview of vessels' carbon
 
 ## 📝 Abbreviations
 
-| Term        | Description                                                      |
-|------------|------------------------------------------------------------------|
-| CO2 Emission | Emission from fuel burnt onboard (Tank-2-Wake)                  |
-| CO2e Emission | CO2 equivalent emission including GWP of N2O and CH4 (Well-2-Wake) |
-| AER        | Annual Efficiency Ratio based on CO2 emission [gCO2/DWTxnm]      |
-| AERe      | Annual Efficiency Ratio based on CO2e emission [gCO2e/DWTxnm]    |
-| EEOIe      | Energy Efficiency Operational Indicator based on CO2e emission   |
-| CII        | Carbon Intensity Indicator                                       |
-| PP-SF      | Poseidon Principles for Ship Finance                             |
-| SCC        | Sea Cargo Charter                                                |
+| Term          | Description                                                       |
+|---------------|-------------------------------------------------------------------|
+| CO2 Emission  | Emission from fuel burnt onboard (Tank-2-Wake)                    |
+| CO2e Emission | CO2 equivalent emission including GWP of N2O and CH4 (Well-2-Wake)|
+| AER           | Annual Efficiency Ratio based on CO2 emission [gCO2/DWTxnm]       |
+| AERe          | Annual Efficiency Ratio based on CO2e emission [gCO2e/DWTxnm]     |
+| EEOIe         | Energy Efficiency Operational Indicator based on CO2e emission    |
+| CII           | Carbon Intensity Indicator                                        |
+| PP-SF         | Poseidon Principles for Ship Finance                              |
+| SCC           | Sea Cargo Charter                                                 |
 
 ---
 
 ## 🌍 Technology Stack
 
-| Technology | Usage                                  |
-|:---------:|:---------------------------------------:|
-| React + Vite | Frontend Framework                    |
-| Material UI + Tailwind CSS | UI Components and Styling      |
-| Redux Toolkit | State Management                    |
-| **Mapbox** | Vessel Route Visualization            |
-| **Highcharts** | Interactive Data Visualization      |
-| REST APIs | Data Source Integration                 |
+| Technology                 | Usage                           |
+|---------------------------|----------------------------------|
+| React + Vite              | Frontend Framework               |
+| Material UI + Tailwind CSS| UI Components and Styling        |
+| Redux Toolkit             | State Management                 |
+| **Mapbox**                | Vessel Route Visualization       |
+| **Highcharts**            | Interactive Data Visualization   |
+| REST APIs                 | Data Source Integration          |
 
 ---
 
@@ -63,5 +69,3 @@ This dashboard is designed to support shipping companies, financiers, and charte
 ## 📄 License
 
 This project is licensed under the **MIT License**.
-
----
